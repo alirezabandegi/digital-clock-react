@@ -22,6 +22,9 @@
     color: #0000004f;
     font-weight: bold;
 }
+#currentDayOfWeek{
+    color: #00a7ac;
+}
 .clock{
     display: flex;
     justify-content: space-between;
