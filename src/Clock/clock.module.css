@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "digital-7";
+    src: url("../fonts/digital-7/digital-7.ttf") format("truetype");
+}
+
+.clockCantainer{
+    width: 430px;
+    margin: 0 auto;
+    border: 5px solid #06d1d8;
+    background-color: #f1f1f1;
+    padding: 5px;
+}
+.weekDays{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.weekDays>span{
+    display: inline-block;
+    margin: 0 8px;
+    font-size: 0.75rem;
+    color: #0000004f;
+    font-weight: bold;
+}
+.clock{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 5px 0;
+}
+.time{
+    font-size: 3.5rem;
+    font-family: "digital-7", sans-serif;
+}
+.meridiem{
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: #000000ab;
+}
